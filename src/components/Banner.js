@@ -28,7 +28,7 @@ const Banner = () => {
                 2000,
                 'Designer',
                 2000,
-                'Undergraduate',
+                'Programmer',
                 2000,
               ]}
                 speed={50}
@@ -40,8 +40,7 @@ const Banner = () => {
             </motion.div>
             <motion.p 
             variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
-            className='mb-8 max-w-lg mx-auto lg:mx-0'>A highly motivated and enthusiastic undergraduate looking for an
-              internship opportunity.</motion.p>
+            className='mb-8 max-w-lg mx-auto lg:mx-0'>A highly motivated and enthusiastic Software Engineer with a passion for developing innovative solutions that exceed expectations and drive business success.</motion.p>
             <motion.div 
             variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
