@@ -54,10 +54,10 @@ const Banner = () => {
             <motion.div
               variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='https://github.com/Rishitha005'>
+              <a href='https://github.com/Rishitha005' target='_blank'>
                 <FaGithub />
               </a>
-              <a href='https://www.linkedin.com/in/rishitha-samarathunga-3b63b5218/'>
+              <a href='https://www.linkedin.com/in/rishitha-samarathunga-3b63b5218/' target='_blank'>
                 <FaLinkedin />
               </a>
               <a href='mailto:rishisamarathunga98@gmail.com'>

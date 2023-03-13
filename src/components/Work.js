@@ -38,7 +38,7 @@ const Work = () => {
               {/* title */}
               <div className='absolute -bottom-full left-12 
               group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Figma Design</span>
               </div>
             </div>
           </motion.div>
@@ -53,12 +53,12 @@ const Work = () => {
               <img className='group-hover:scale-125 transaction-all duration-500' src={Img2} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Android App Development</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 
               group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Liquor Purchasing System</span>
               </div>
             </div>
             {/* image */}
@@ -69,12 +69,12 @@ const Work = () => {
               <img className='group-hover:scale-125 transaction-all duration-500' src={Img3} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Web Design</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 
               group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Software Development Company</span>
               </div>
             </div>
           </motion.div>
