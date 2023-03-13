@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://rishitha005.github.io/rishitha.github.io/",
+  "homepage": "https://rishitha005.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/Rishitha005/Portfolio.git"
   },
   "eslintConfig": {
     "extends": [

@@ -22,7 +22,7 @@ const Work = () => {
                 My Latest <br />
                 Work.
               </h2>
-              <p className='max-w-sm mb-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <p className='max-w-sm mb-16'>Showcases my expertise in Web development and Mobile app development with a focus on creating visually stunning and user-friendly websites.</p>
               <button className='btn btn-sm'>View all projects</button>
             </div>
             {/* image */}

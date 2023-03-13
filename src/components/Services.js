@@ -10,22 +10,22 @@ import { fadeIn } from '../variants'
 const services = [
   {
     name: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: 'As a web developer, I am skilled in crafting visually stunning and engaging websites that offer a seamless user experience.',
     link: 'Learn more',
   },
   {
     name: 'UI/UX Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: 'As a UI/UX designer, I excel at creating visually appealing interfaces that enhance user engagement and satisfaction',
     link: 'Learn more',
   },
   {
     name: 'Mobile App Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    description: 'As a mobile app developer, I specialize in creating functional and user-friendly apps for both iOS and Android platforms.',
     link: 'Learn more',
   },
   {
-    name: 'Database',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    name: 'WordPress Development',
+    description: 'With my skills in WordPress development, I am able to create custom-designed and functional websites.',
     link: 'Learn more',
   },
 ]
@@ -41,7 +41,7 @@ const Services = () => {
           className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>What I Do</h2>
             <h3 className='h3 max-w-[455px] mb-16'>Passionate Undergraduate in Software Engineering and Front-End Development</h3>
-            <button className='btn btn-sm'>See my work</button>
+            <a href='#work'><button className='btn btn-sm'>See my work</button></a>
           </motion.div>
           {/* services */}
           <motion.div 
