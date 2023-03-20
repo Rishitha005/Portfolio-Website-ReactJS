@@ -7,7 +7,6 @@ import { fadeIn } from '../variants'
 import Img1 from '../assets/portfolio-img1.png';
 import Img2 from '../assets/portfolio-img2.png';
 import Img3 from '../assets/portfolio-img3.png';
-import { Link } from 'react-router-dom';
 
 const Work = () => {
   return (
@@ -24,7 +23,7 @@ const Work = () => {
                 Work.
               </h2>
               <p className='max-w-sm mb-16'>Showcases my expertise in Web development and Mobile app development with a focus on creating visually stunning and user-friendly websites.</p>
-              <Link to="/projects"><button className='btn btn-sm'>View all projects</button></Link>
+              <a href=''><button className='btn btn-sm'>View all projects</button></a>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>

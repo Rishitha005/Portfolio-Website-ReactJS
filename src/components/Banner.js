@@ -10,6 +10,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../variants'
+//scroll
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return (
@@ -46,8 +48,9 @@ const Banner = () => {
             <motion.div
               variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <a href='#contact'><button className='btn btn-lg' >Contact Me</button></a>
-              <a href='#work' className='text-gradient btn-link'>My Portfolio</a>
+              <Link to='contact' activeClass='active' smooth={true} spy={true}><button className='btn btn-lg' >Contact Me</button></Link>
+              <Link to='work' activeClass='active' smooth={true} spy={true}><button className='text-gradient btn-link'>My Portfolio</button></Link>
+              
             </motion.div>
 
             {/* socials */}

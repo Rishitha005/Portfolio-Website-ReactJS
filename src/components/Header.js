@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../assets/logo.svg';
 import MyCV from '../assets/S.R Samarathunga.pdf';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const handleDownloadCV = () => {
@@ -22,9 +23,9 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo */}
-          <a href=''>
-            <img src={Logo} alt='' />
-          </a>
+          <Link to="/">
+            <img src={Logo} alt='Logo' />
+          </Link>
           {/* button */}
           <button className='btn btn-sm' onClick={handleDownloadCV}>
             Download My CV
